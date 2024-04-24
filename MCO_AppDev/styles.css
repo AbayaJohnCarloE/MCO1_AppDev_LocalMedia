@@ -1,0 +1,77 @@
+ body{
+    background-color: white;
+ }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .frends{
+    color: aliceblue;
+    margin-top: 50px;
+    max-width: 250px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color:#156b36;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(95, 93, 93);
+    border-radius: 10px;
+  }
+    
+  
+  
+  
+  .container {
+    color: aliceblue;
+    margin-top: 50px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    text-align: justify;
+    
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col {
+    background-color: #156b36;
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #156b36;
+    border-radius: 20px;
+    box-shadow: 0 20px 35px rgb(95, 93, 93);
+  }
+  
+  
+  .img-thumbnail {
+    display: block; 
+      margin: 0 auto; 
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+  }
+  
+  
+  p.name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  p.about-me {
+    margin-top: 10px;
+    color: #000000;
+  }
+  

@@ -1,0 +1,104 @@
+/* CSS for Login Form */
+.container{
+    width: 300px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border: white;
+    background-origin: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(95, 93, 93);
+    margin-top: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: rgb(207, 204, 204);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #156b36;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2fbd4e;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color:#156b36;
+  }
+
+  /* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .container {
+    margin-top: 50px;
+    max-width: 800px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  
+  /* Row styles */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Column styles */
+  .col {
+    width: calc(33.33% - 20px); /* Adjust as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Image styles */
+  .img-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Name styles */
+  p.name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* About Me styles */
+  p.about-me {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  
